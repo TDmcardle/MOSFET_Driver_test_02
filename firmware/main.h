@@ -26,6 +26,18 @@
 #define RANGE	(MAX-MIN)
 
 
+#define A_HIGH	 0x01
+#define A_LOW	 0x02
+#define B_HIGH	 0x04
+#define B_LOW	 0x08
+#define C_HIGH	 0x10
+#define C_LOW	 0x20
+
+#define phase_A 0
+#define phase_B 1
+#define phase_C 2
+
+
 
 void initPorts(void);
 void initTimer_CTC(void);
