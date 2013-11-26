@@ -19,7 +19,7 @@
 DEVICE     = atmega2560
 CLOCK      = 8000000
 PROGRAMMER = #-c stk600 -P /dev/tty.usbserial
-OBJECTS    = main.o ADC.o
+OBJECTS    = main.o ADC.o IOPorts.o Timer_CTC.o
 FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x24:m
 EFLAGS		= -D testD
 
@@ -99,4 +99,4 @@ disasm:	main.elf
 	avr-objdump -d main.elf
 
 cpp:
-	$(COMPILE) -E main.c ADC.c
+	$(COMPILE) -E main.c ADC.c IOPorts.c main.h Timer_CTC.c

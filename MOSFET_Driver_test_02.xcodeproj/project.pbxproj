@@ -11,6 +11,8 @@
 		E0859E2518432E6E0020F2B3 /* ADC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ADC.c; sourceTree = "<group>"; };
 		E0859E2718432EDB0020F2B3 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E0A07DBF1844DEDB008835F6 /* Timer_CTC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Timer_CTC.c; sourceTree = "<group>"; };
+		E0A07DC11844E380008835F6 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		E0A07DC21844E460008835F6 /* IOPorts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOPorts.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -25,6 +27,8 @@
 			isa = PBXGroup;
 			children = (
 				E0859E2718432EDB0020F2B3 /* main.c */,
+				E0A07DC21844E460008835F6 /* IOPorts.c */,
+				E0A07DC11844E380008835F6 /* main.h */,
 				E0A07DBF1844DEDB008835F6 /* Timer_CTC.c */,
 				E0859E2518432E6E0020F2B3 /* ADC.c */,
 				E0859E2418432E600020F2B3 /* Makefile */,
